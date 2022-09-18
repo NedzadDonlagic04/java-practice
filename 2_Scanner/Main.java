@@ -20,5 +20,7 @@ public class Main {
         System.out.println("\nYour name is " + name + ' ' + surname);
         System.out.println("You are " + age + " years old");
         System.out.println("Your favorite food is " + favFood);
+
+        scanner.close();
     }
 }
